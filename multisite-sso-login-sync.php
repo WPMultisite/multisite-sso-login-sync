@@ -21,7 +21,7 @@ if (!defined('ABSPATH')) {
 }
 
 require_once plugin_dir_path(__FILE__) . 'includes/class-wenpai-updater.php';
-new \WenPai_Updater( plugin_basename( __FILE__ ), '1.3.2' );
+new \Multisite_SSO_Login_Sync_Updater( plugin_basename( __FILE__ ), '1.3.2' );
 
 require_once plugin_dir_path(__FILE__) . 'includes/api.php';
 

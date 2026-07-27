@@ -20,11 +20,11 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-if ( class_exists( 'WenPai_Updater' ) ) {
+if ( class_exists( 'Multisite_SSO_Login_Sync_Updater' ) ) {
     return;
 }
 
-class WenPai_Updater {
+class Multisite_SSO_Login_Sync_Updater {
 
     /**
      * 更新器版本号。
